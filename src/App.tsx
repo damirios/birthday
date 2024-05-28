@@ -1,10 +1,10 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { PageFirst, PageFourth, PageSecond, PageThird } from "./components";
 import { PageFinal } from "./components/page-final";
 
 import "./style.scss";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <PageFirst />,
