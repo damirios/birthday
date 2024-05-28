@@ -4,7 +4,7 @@ export const PageFinal = () => {
       <h4>
         УРА! Поздравляю! Твой подарок охраняют наши друзья! (на балконе, хехе)
       </h4>
-      <img className="photo" src="/URA.jpg" />
+      <img className="photo" src="./URA.jpg" />
     </div>
   );
 };
